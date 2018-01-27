@@ -7,10 +7,20 @@
     tools:context="com.coding_blocks.stonedcoder.fragments.MainActivity">
 
     <fragment
-        tools:layout="@layout/fragment_blank"
-        android:name="com.coding_blocks.stonedcoder.fragments.BlankFragment"
+        android:id="@+id/fragRed"
+        tools:layout="@layout/fragment_red"
+        android:name="com.coding_blocks.stonedcoder.fragments.RedFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_weight="1"
+        />
+
+    <fragment
+        tools:layout="@layout/fragment_blue"
+        android:id="@+id/fragBlue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
 
 
 
