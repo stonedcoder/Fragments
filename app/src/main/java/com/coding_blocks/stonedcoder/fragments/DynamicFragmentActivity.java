@@ -1,6 +1,5 @@
 package com.coding_blocks.stonedcoder.fragments;
 
-import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,7 +11,7 @@ import android.view.View;
 public class DynamicFragmentActivity
         extends AppCompatActivity
         implements View.OnClickListener {
-    FragmentManager fragMan;
+    android.support.v4.app.FragmentManager fragMan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
